@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Consultar Funcionario</title>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap" rel="stylesheet">
+        
+        <style>
+            *{
+                text-align: center;
+                margin: 0 auto;
+                padding: 10px;
+                font-family:  'Poppins', sans-serif;
+            }
+            #nome{
+                width: 200px;
+            }
+        </style>
+        
+    </head>
+    <body>
+        <form method="post" action="buscarfun.jsp">
+
+            <label for="nome">Nome do Funcionario: </label>
+            <input id="nome" type="text" name="nome">
+            <input type="submit" value="Buscar">
+
+        </form>
+    </body>
+</html>

@@ -1,0 +1,73 @@
+header {
+    width: 100%;
+    background-color:#0e6926;
+    color: white;
+    box-sizing: border-box;
+    height: 89px;
+    display: flex;
+}
+.imagem{
+    flex: 0.50;
+    text-align: left;
+}
+
+.titulo{
+    flex: 1.5;
+    text-align: left;
+    padding-left: 57px;
+}
+
+nav {
+    width: 100%;
+    background-color: #32a852;
+    display: flex;
+    padding: 5px 0px;
+}
+
+main {
+    width: 100%;
+    height: 451px;
+    background-color:#edf7f0;
+
+}
+
+footer {
+    width: 100%;
+    height: 59px;
+    background-color:#0e6926;
+}
+
+* {
+    margin:0 auto;
+    color:black;
+    text-decoration: none;
+}
+
+a.titulo {
+    flex: 1;
+    color:black;
+    text-decoration: none;
+    padding: 5px 25px;
+}
+
+
+
+header h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 49px;
+    color: white;
+}
+
+main iframe{
+    width: 100%;
+    height: 100%;
+    border:0px
+}
+.nome{
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    padding-top: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+

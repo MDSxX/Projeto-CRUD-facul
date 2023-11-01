@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="ISO-8859-1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap" rel="stylesheet">
+        <style>
+            *{
+                font-family:   'Poppins', sans-serif;
+
+            }
+
+            h1{
+                padding-top: 0px;
+                text-align: center;
+            }
+
+            
+            input#salvar{
+                margin-left: 20px;
+            }
+            
+            div.cad form{
+                text-align: center;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <main>
+            <h1>Cadastro do Funcionario</h1>
+
+            <div class="cad">
+                <form method="post" action="cadastrafun.jsp">
+
+
+                    <label for="nome">Nome do Funcionario:</label>
+                    <input id="nome" type="text" name="nomefun" size="20" required>
+
+                    <label for="funcao">Função:</label>
+                    <input id="funcao" type="text" name="posto" size="20" required>
+
+
+
+                    <label for="cpf">CPF:</label>
+                    <input id="cpf" type="number" name="idcpf" required>
+
+                    <label  for="salario">Salario:</label>
+                    <input id="salario" type="text" name="salariofun" size="7" required>
+
+
+                    <input id="salvar" type="submit" value="Salvar">
+
+                </form>
+            </div>
+        </main>
+    </body>
+</html>
